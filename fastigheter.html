@@ -141,18 +141,20 @@
 
 <body>
 
-	<div class="text-container">
-		<h2 class="text-4xl font-extrabold dark:text-white">Fastigheter</h2>
+
+	<div class="grid-container">
+		<div class="text-container">
+			<h2 class="text-4xl font-extrabold dark:text-white">Fastigheter</h2>
+			<p class="my-4 text-lg text-gray-500">Föreningen äger och förvaltar flera fastigheter inom Skarpöborgs villaområde. Nedan finner du information, plats och historia kring de platser runtom Skarpö som har anknytning till vår förening.</p>
+		</div>
+		<div class="image-container">
+			<img src="fastigheter.jpg" alt="Tennis image">
+		</div>
 	</div>
 
 
-	<div class="d-flex justify-content-center align-items-center vh-1000" style="margin-top: 100px;">
-		<img class="h-auto max-w-xl mx-auto rounded-lg" src="fastigheter.jpg" alt="">
-	</div>
-
-
 	<div class="text-container">
-		<h3 class="text-3xl font-extrabold dark:text-white text-gray-500">Föreningen äger flera fastigheter inom Skarpöborgs villaområde; </h3>
+		<h3 class="text-3xl font-extrabold dark:text-white">Föreningens fastigheter; </h3>
 		<p class="my-4 text-lg text-gray-500"></p>
 	</div>
 
@@ -176,7 +178,7 @@
 	</div>
 
 	<div class="text-container">
-		<h3 class="text-3xl font-extrabold dark:text-white text-gray-500">Vi ansvarar för bryggor, vänthus och trappor
+		<h3 class="text-3xl font-extrabold dark:text-white">Vi ansvarar för bryggor, vänthus och trappor
 		</h3>
 		<p class="my-4 text-lg text-gray-500">Föreningen förvaltar ett antal samfälligheter, däribland de
 			delar av marksamfälligheterna s:1, s:4 och s:5 som ligger inom föreningens verksamhetsområde och som inte
@@ -209,7 +211,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
 	
 	<div class="text-container">
-		<h3 class="text-3xl font-extrabold dark:text-white text-gray-500">Vägnamnen har sin historia</h3>
+		<h3 class="text-3xl font-extrabold dark:text-white">Vägnamnen har sin historia</h3>
 		<p class="my-4 text-lg text-gray-500">Det finns flera intressanta namn på vägar inom
 			Skarpöborgsområdet. Information om namnen nedan är hämtade från Skarpö Vänners hemsida</p>
 
@@ -264,6 +266,25 @@
 		  padding: 0 20px;
 		}
 	  </style>
+
+	  <style>
+		.grid-container {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			/* creates two equal-sized columns */
+			gap: 50px;
+			margin-right: 0px;
+			margin-left: 0px;
+			margin-top: 100px;
+		}
+	</style>
+	<style>
+		.image-container img {
+			width: 300px;
+			border-radius: 20px;
+			margin-left: 100px;
+		}
+	</style>
 
 </body>
 
