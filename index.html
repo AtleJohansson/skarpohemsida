@@ -235,7 +235,30 @@
 			</figcaption>
 		</figure>
 	</div>
-	  
+	
+	<div style="margin: 0 300px;">
+		<div class="mb-1 text-lg font-medium dark:text-white">Status för crowdfunding av paviljongen</div>
+		<div class="w-full h-6 bg-gray-200 rounded-full dark:bg-gray-700" style="position: relative;">
+		  <!-- Add vertical lines as additional elements -->
+		  <div class="h-6 bg-blue-600 rounded-full dark:bg-blue-500" style="width: 45%; z-index: 1;"></div>
+		  <div class="progress-subgoal" style="left: 20%;"></div>
+		  <div class="progress-subgoal" style="left: 70%;"></div>
+		</div>
+		<!-- Add text at the end of the progress bar -->
+		<div class="text-sm text-gray-500 dark:text-gray-400 text-right mt-1">Mål: 150,000kr</div>
+	  </div>
+
+	
+	  <style>
+	  .progress-subgoal {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 2px;
+		height: 80%;
+		background-color: rgba(0, 0, 0, 0.5);
+	  }
+	  </style>
 
 
 </body>
