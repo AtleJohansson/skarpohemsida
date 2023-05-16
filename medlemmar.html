@@ -147,10 +147,23 @@
         <h2 class="text-4xl font-extrabold dark:text-white">Medlemmar</h2>
     </div>
     <div class="text-container">
-        <h3 class="text-3xl font-extrabold dark:text-white text-gray-500">Varje fastighetsägare inom Skarpöborgs villaområde kan bli medlem.</h3>
+        <h3 class="text-3xl font-extrabold dark:text-white">Varje fastighetsägare inom Skarpöborgs villaområde kan bli medlem.</h3>
         <p class="my-4 text-lg text-gray-500">Antalet medlemmar 2017 uppgick till 107 medlemmar. Medlemsavgiften för 2020 uppgår till 500 kronor. Härtill kommer eventuella avgifter för båtplats, vattenkontrakt, vattenförbrukning, tenniskontrakt och tennisavgift. Vill du läsa mer om båtplatser, tennis och sommarvatten se respektive flik ovan. Medlemskapet i föreningen finns beskrivet i föreningens stadgar.</p>
 
     </div>
+
+
+    <div class="grid shadow-2xl">
+        <a href="valkommen_skarpo.pdf"
+          class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Välkommen till Skarpö</h5>
+          <p class="font-normal text-gray-700 dark:text-gray-400">Denna ruta tar dig till PDF:en.</p>
+        </a>
+        <div class="image-container">
+          <img class="h-auto max-w-full rounded-lg" src="nyheter.jpg" alt="image description">
+        </div>
+      </div>
+
 
     <style>
         .text-container {
@@ -160,16 +173,33 @@
         }
     </style>
 
-    <div class="image-container">
-        <img class="h-auto max-w-full" src="nyheter.jpg" alt="image description">
-    </div>
+    
+	<style>
+		.grid {
+			display: grid;
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			margin-left: 100px;
+			margin-right: 100px;
+		}
+
+	</style>
+
     <style>
         .image-container {
-            margin-left: 200px;
-            margin-right: 200px;
-        }
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          
+          .image-container img {
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+          }
     </style>
-    
+
+
 </body>
 
 
