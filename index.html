@@ -237,6 +237,70 @@
 	</div>
 
 
+
+
+	<div style="margin: 200px;">
+		<div class="mb-1 text-lg font-medium dark:text-white">Status för crowdfunding av paviljongen:</div>
+		<div class="bar-container">
+		  <div class="bar-progress" style="width: 64%;"></div>
+		  <!-- Add vertical lines as additional elements -->
+		  <div class="progress-subgoal" style="left: 40%;">
+			<div class="subgoal-text">Takkonstruktion & Plåttak</div>
+		  </div>
+		</div>
+		<!-- Add text at the end of the progress bar -->
+		<div class="text-subgoal">
+		  <div class="text-sm text-gray-500 dark:text-gray-400">Start</div>
+		  <div class="text-sm text-gray-500 dark:text-gray-400 text-right">Mål: 150.000kr</div>
+		</div>
+	  </div>
+	  
+	  <style>
+		.bar-container {
+		  position: relative;
+		  width: 100%;
+		  height: 6px;
+		  background-color: #ccc;
+		  border-radius: 10px;
+		}
+	  
+		.bar-progress {
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  height: 100%;
+		  background-color: rgb(24, 114, 239);
+		  border-radius: 10px;
+		}
+	  
+		.progress-subgoal {
+		  position: absolute;
+		  top: 50%;
+		  transform: translateY(-50%);
+		  width: 2px;
+		  height: 80%;
+		  background-color: rgb(0, 0, 0);
+		}
+	  
+		.text-subgoal {
+		  display: flex;
+		  justify-content: space-between;
+		  margin-top: 5px;
+		  margin-left: 0px;
+		  margin-right: 0px;
+		}
+		.subgoal-text {
+			position: absolute;
+			margin-top: 5px;
+			left: 50%;
+			transform: translateX(-50%);
+		  }
+	  </style>
+
+
+
+
+
 </body>
 
 <footer class="bg-white dark:bg-gray-900">
