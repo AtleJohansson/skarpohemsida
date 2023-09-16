@@ -163,14 +163,23 @@
 	</style>
 
 	<style>
+		.text-container_2 {
+			margin-left: 280px;
+			margin-right: 280px;
+			margin-top: 200px;
+			text-align: center;
+		}
+	</style>
+
+	<style>
 		.grid {
 			display: grid;
-			grid-template-columns: repeat(3, minmax(0, 1fr));
+			grid-template-columns: repeat(2, minmax(0, 1fr));
 			grid-column-gap: 20px;
 			grid-row-gap: 20px;
-			margin-top: 5%;
-			margin-left: 300px;
-			margin-right: 300px;
+			margin-left: 100px;
+			margin-right: 100px;
+			margin-top: 50px;
 		}
 
 		@media (max-width: 767px) {
@@ -179,71 +188,30 @@
 			}
 		}
 	</style>
-
-	<div class="grid grid-cols-3 gap-6 shadow-2xl">
-		<figure
-			class="relative max-w-xs mx-auto mb-6 transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
-			<a href="foreningen.html">
-				<img class="rounded-lg" src="bild.jpg" alt="image description">
-			</a>
-			<figcaption class="absolute px-4 text-white bottom-6">
-				<p class="font-bold text-xl">Föreningen</p>
-			</figcaption>
-		</figure>
-		<figure
-			class="relative max-w-xs mx-auto mb-6 transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
-			<a href="fastigheter.html">
-				<img class="rounded-lg" src="fastigheter.jpg" alt="image description">
-			</a>
-			<figcaption class="absolute px-4 text-white bottom-6">
-				<p class="font-bold text-xl">Fastigheter</p>
-			</figcaption>
-		</figure>
-		<figure
-			class="relative max-w-xs mx-auto mb-6 transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
-			<a href="bryggor.html">
-				<img class="rounded-lg" src="bryggor.jpg" alt="image description">
-			</a>
-			<figcaption class="absolute px-4 text-white bottom-6">
-				<p class="font-bold text-xl">Bryggor</p>
-			</figcaption>
-		</figure>
-		<figure
-			class="relative max-w-xs mx-auto mb-6 transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
-			<a href="tennis.html">
-				<img class="rounded-lg" src="tennis.jpg" alt="image description">
-			</a>
-			<figcaption class="absolute px-4 text-white bottom-6">
-				<p class="font-bold text-xl">Tennis</p>
-			</figcaption>
-		</figure>
-		<figure
-			class="relative max-w-xs mx-auto mb-6 transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
-			<a href="kontakt.html">
-				<img class="rounded-lg" src="styrelsen.jpg" alt="image description">
-			</a>
-			<figcaption class="absolute px-4 text-white bottom-6">
-				<p class="font-bold text-xl">Kontakt</p>
-			</figcaption>
-		</figure>
-		<figure
-			class="relative max-w-xs mx-auto mb-6 transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
-			<a href="nyheter.html">
-				<img class="rounded-lg" src="landskap.jpg" alt="image description">
-			</a>
-			<figcaption class="absolute px-4 text-white bottom-6">
-				<p class="font-bold text-xl">Nyheter</p>
-			</figcaption>
-		</figure>
-	</div>
-
-
+	<!--
 	<div class="text-container">
+		<h2 class="text-3xl font-extrabold dark:text-white">Anslagstavla</h2>
+	</div>
+	<div class="grid grid-cols-2 gap-3 shadow-2xl">
+		<a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+			<img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="historia.png" alt="">
+			<div class="flex flex-col justify-between p-4 leading-normal">
+				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Fixardagen hösten 2023</h5>
+				<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Välkommen till fixardagen hösten 2023. Vi kommer göra ditt och datt, grilla korv och ha det trevligt och bidra till allmänheten på Skarpö. </p>
+			</div>
+		</a>
+	</div>
+	-->
+
+
+	<div class="text-container_2">
 		<h2 class="text-3xl font-extrabold dark:text-white">Status för crowdfunding av paviljongen:</h2>
 	</div>
 
 	<img srcset="/docs/images/examples/image-1.jpg 1x, staplar.png 2x" class="rounded-lg mx-auto "
 		alt="image description" style="margin-top: 80px; width: 800px;">
+	
+
 
 </body>
 
