@@ -158,7 +158,7 @@
 
 
 
-    <div class="button shadow-2xl">
+    <div class="grid shadow-2xl">
 		<a href="stadgar.pdf"
 			class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 			<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Föreningens stadgar</h5>
@@ -189,22 +189,22 @@
     </style>
 
     <style>
-        .image-container img{
-            margin-left: 200px;
-            margin-right: 200px;
-            border-radius: 20px;
-            width: 1000px;
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+            margin-left: 100px;
+            margin-right: 550px;
+            margin-top: 50px;
+        }
 
+        @media (max-width: 767px) {
+            .grid {
+                grid-template-columns: repeat(1, minmax(0, 1fr));
+            }
         }
     </style>
-    <style>
-		.button {
-			margin-left: 100px;
-			margin-right: 550px;
-            margin-top: 50px;
-		}
-
-	</style>
 
 
 
